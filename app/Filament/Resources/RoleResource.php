@@ -27,6 +27,8 @@ class RoleResource extends Resource
 
     protected static ?string $navigationGroup = 'Admin Management';
 
+    // protected static bool $shouldRegisterNavigation = false;
+
     public static function form(Form $form): Form
     {
         return $form
